@@ -61,17 +61,17 @@ int main() {
 
 	for (int i = 0; i < 5; i++) { // циклвводаинформации
 								  // вводим данные о приборах
-		cout << "цифра " << i << endl;
+		cout << "4islo " << i << endl;
 		// вводим наименование
-		cout << "город: ";
+		cout << "ccc: ";
 		// cin - поток ввода
 		// >> - указывает на направление ввода, т.е. из потока
 		cin >> gorod;
 		// вводимтип
-		cout << "улица: ";
+		cout << "ylitsa: ";
 		cin >> yliua;
 		// вводим мощность
-		cout << "номер: ";
+		cout << "nomer: ";
 		cin >> nomer;
 
 		// устанавливаем свойства класса в массиве
@@ -83,7 +83,7 @@ int main() {
 	
 	// выводим информацию на экран c помощью встроенных методов получения информаци
 	for (int i = 0; i < 5; i++) { // циклвыводаинформации
-		cout << "город: " << arr[i].get_gorod() << " улица: " << arr[i].get_yliua() << " номер: " << arr[i].get_nomer() << endl;
+		cout << "gorod: " << arr[i].get_gorod() << " ylitsa: " << arr[i].get_yliua() << " nomer: " << arr[i].get_nomer() << endl;
 	}
 	system("pause");
 	return 0;
